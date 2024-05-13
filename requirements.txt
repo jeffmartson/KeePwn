@@ -5,3 +5,7 @@ termcolor
 pefile
 python-magic
 pykeepass
+cryptography>=42.0.2 # not directly required, pinned by Snyk to avoid a vulnerability
+flask>=2.2.5 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
